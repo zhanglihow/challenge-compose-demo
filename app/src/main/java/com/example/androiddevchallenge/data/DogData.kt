@@ -14,6 +14,4 @@ class DogData (
     val gender: String,
     val feature:String,
     val weight:Float
-){
-
-}
+)

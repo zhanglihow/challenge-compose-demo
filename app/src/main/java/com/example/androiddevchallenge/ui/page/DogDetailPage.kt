@@ -6,14 +6,12 @@ import com.example.androiddevchallenge.model.DogModel
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.data.DogData
 import com.example.androiddevchallenge.ui.theme.teal200
 import com.example.androiddevchallenge.ui.theme.typography
-import kotlinx.coroutines.launch
 
 /**
  *
