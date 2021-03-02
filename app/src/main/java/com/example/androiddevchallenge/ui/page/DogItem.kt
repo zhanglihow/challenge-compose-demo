@@ -43,12 +43,6 @@ import com.example.androiddevchallenge.ui.theme.accentPink
 import com.example.androiddevchallenge.ui.theme.purple700
 import com.example.androiddevchallenge.ui.theme.typography
 
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 @Composable
 fun DogItem(dog: DogData,
             navController: NavHostController,

@@ -15,13 +15,6 @@
  */
 package com.example.androiddevchallenge.data
 
-
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 class DogData (
     val name: String,
     val photo: Int,

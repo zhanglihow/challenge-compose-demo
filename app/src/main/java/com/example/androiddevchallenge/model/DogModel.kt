@@ -21,13 +21,6 @@ import androidx.lifecycle.ViewModel
 import com.example.androiddevchallenge.R
 import com.example.androiddevchallenge.data.DogData
 
-
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 class DogModel : ViewModel() {
     companion object {
         val dogs by mutableStateOf(

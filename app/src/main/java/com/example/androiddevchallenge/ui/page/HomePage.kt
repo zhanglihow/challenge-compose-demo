@@ -27,13 +27,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.launch
 
-
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 @ExperimentalFoundationApi
 @Composable
 fun HomePage() {

@@ -30,13 +30,6 @@ import androidx.navigation.NavHostController
 import com.example.androiddevchallenge.model.DogModel
 import com.example.androiddevchallenge.ui.theme.teal200
 
-
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 @ExperimentalFoundationApi
 @Composable
 fun DogListPage (navController: NavHostController){

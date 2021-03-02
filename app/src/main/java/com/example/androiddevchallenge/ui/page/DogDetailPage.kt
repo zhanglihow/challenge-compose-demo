@@ -34,12 +34,6 @@ import com.example.androiddevchallenge.data.DogData
 import com.example.androiddevchallenge.ui.theme.teal200
 import com.example.androiddevchallenge.ui.theme.typography
 
-/**
- *
- * @author zhangli
- * @email zhanglihow@gmail.com
- * @time
- */
 @Composable
 fun DogDetailPage(
     navController: NavHostController,
