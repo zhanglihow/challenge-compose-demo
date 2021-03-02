@@ -32,7 +32,7 @@ import com.example.androiddevchallenge.ui.theme.teal200
 
 @ExperimentalFoundationApi
 @Composable
-fun DogListPage (navController: NavHostController){
+fun DogListPage(navController: NavHostController) {
     Surface(color = teal200) {
         Row {
             LazyVerticalGrid(
@@ -42,7 +42,7 @@ fun DogListPage (navController: NavHostController){
                     .fillMaxWidth()
             ) {
                 itemsIndexed(DogModel.dogs) { index, dog ->
-                    DogItem(dog, navController, index,250)
+                    DogItem(dog, navController, index, 250)
                 }
             }
         }

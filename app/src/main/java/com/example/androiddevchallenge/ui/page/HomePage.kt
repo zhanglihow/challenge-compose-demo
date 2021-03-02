@@ -38,7 +38,8 @@ fun HomePage() {
     Scaffold(
         snackbarHost = {
             SnackbarHost(snackbarHostState)
-        }) {
+        }
+    ) {
 
         NavHost(navController = navController, startDestination = "dogList") {
             composable("dogList") {
