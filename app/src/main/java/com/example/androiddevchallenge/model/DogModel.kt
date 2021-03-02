@@ -96,7 +96,7 @@ class DogModel : ViewModel() {
                     "boy",
                     "Lively and like to play games",
                     28.5F,
-                ),
+                )
             )
         )
     }
