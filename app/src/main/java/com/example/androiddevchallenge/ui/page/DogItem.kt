@@ -42,7 +42,6 @@ fun DogItem(dog: DogData,
             .padding(8.dp)
     ) {
         Column(
-            verticalArrangement = Arrangement.spacedBy(0.dp),
             modifier = Modifier.clickable {
                 navController.navigate("dogDetail/$index") {
                     popUpTo(route = "dogList") {}
