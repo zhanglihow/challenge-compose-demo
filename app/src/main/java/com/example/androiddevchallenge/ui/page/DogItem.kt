@@ -5,7 +5,13 @@ import androidx.navigation.NavHostController
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.Text
@@ -29,12 +35,10 @@ import com.example.androiddevchallenge.ui.theme.typography
  * @time
  */
 @Composable
-fun DogItem(
-    dog: DogData,
-    navController: NavHostController,
-    index: Int,
-    height: Int
-) {
+fun DogItem(dog: DogData,
+            navController: NavHostController,
+            index: Int,
+            height:Int){
     Card(
         elevation = 16.dp,
         shape = RoundedCornerShape(16.dp),
@@ -55,7 +59,7 @@ fun DogItem(
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(200.dp, height.dp)
+                    .heightIn(200.dp,height.dp)
             )
             Box(
                 modifier = Modifier
@@ -75,7 +79,7 @@ fun DogItem(
                     ) {
                         Chip(content = dog.age)
                         Chip(content = dog.gender)
-                        Chip(content = dog.weight.toString() + " KG")
+                        Chip(content = dog.weight.toString()+" KG")
                     }
                 }
             }
