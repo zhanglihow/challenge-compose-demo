@@ -21,5 +21,5 @@ class DogData(
     val age: String,
     val gender: String,
     val feature: String,
-    val weight: Float
+    val weight: Float,
 )
